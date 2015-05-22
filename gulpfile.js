@@ -28,8 +28,6 @@ gulp.task('watch', function() {
   gulp.watch('site/scss/*.scss', ['sass']);
 });
 
-
-
 gulp.task('html', function() {
   gulp.src('site/index.html')
     .pipe(minifyHTML())
