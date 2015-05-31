@@ -237,8 +237,7 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
+html input[type="button"], input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -359,7 +358,9 @@ th {
 html {
   box-sizing: border-box; }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: inherit; }
 
 .centered-navigation {
@@ -393,7 +394,8 @@ html {
     @media screen and (min-width: 53.75em) {
       .centered-navigation .centered-navigation-mobile-menu {
         display: none; } }
-    .centered-navigation .centered-navigation-mobile-menu:focus, .centered-navigation .centered-navigation-mobile-menu:hover {
+    .centered-navigation .centered-navigation-mobile-menu:focus,
+    .centered-navigation .centered-navigation-mobile-menu:hover {
       color: black; }
   .centered-navigation .centered-navigation-wrapper {
     max-width: 68em;
@@ -441,7 +443,8 @@ html {
       display: inline-block;
       outline: none;
       text-decoration: none; }
-      .centered-navigation ul li.nav-link a:focus, .centered-navigation ul li.nav-link a:hover {
+      .centered-navigation ul li.nav-link a:focus,
+      .centered-navigation ul li.nav-link a:hover {
         color: black; }
     @media screen and (min-width: 53.75em) {
       .centered-navigation ul li.nav-link {
@@ -521,7 +524,8 @@ html {
       .hero .hero-inner button:hover:not(:disabled) {
         background-color: #ff6d2b;
         cursor: pointer; }
-      .hero .hero-inner button:active:not(:disabled), .hero .hero-inner button:focus:not(:disabled) {
+      .hero .hero-inner button:active:not(:disabled),
+      .hero .hero-inner button:focus:not(:disabled) {
         background-color: #f24f05;
         cursor: pointer; }
       .hero .hero-inner button:disabled {
@@ -610,7 +614,8 @@ html {
   .footer-2 ul li a {
     color: black;
     text-decoration: none; }
-    .footer-2 ul li a:focus, .footer-2 ul li a:hover {
+    .footer-2 ul li a:focus,
+    .footer-2 ul li a:hover {
       color: #727272; }
   @media screen and (min-width: 53.75em) {
     .footer-2 .footer-secondary-links {
@@ -637,7 +642,6 @@ html {
       opacity: 0.7;
       padding: 1px;
       color: black; }
-      .footer-2 .footer-secondary-links ul.footer-social img:focus, .footer-2 .footer-secondary-links ul.footer-social img:hover {
+      .footer-2 .footer-secondary-links ul.footer-social img:focus,
+      .footer-2 .footer-secondary-links ul.footer-social img:hover {
         opacity: 1; }
-
-/*# sourceMappingURL=styles.css.map */
