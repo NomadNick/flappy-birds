@@ -527,6 +527,8 @@ html {
       .hero .hero-inner button:disabled {
         cursor: not-allowed;
         opacity: 0.5; }
+      .hero .hero-inner button:focus {
+        outline: 0; }
 
 .grid-items {
   margin-top: 5px;

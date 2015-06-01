@@ -55,6 +55,9 @@
       @include button(flat, $action-color);
       padding: 0.7em 1em;
       margin-top: 2em;
+      &:focus {
+        outline: 0;
+      }
     }
   }
 }
