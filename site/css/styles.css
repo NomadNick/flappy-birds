@@ -394,9 +394,8 @@ html {
     @media screen and (min-width: 53.75em) {
       .centered-navigation .centered-navigation-mobile-menu {
         display: none; } }
-    .centered-navigation .centered-navigation-mobile-menu:focus,
     .centered-navigation .centered-navigation-mobile-menu:hover {
-      color: black; }
+      color: rgba(0, 0, 0, 0.5); }
   .centered-navigation .centered-navigation-wrapper {
     max-width: 68em;
     margin-left: auto;
@@ -443,9 +442,8 @@ html {
       display: inline-block;
       outline: none;
       text-decoration: none; }
-      .centered-navigation ul li.nav-link a:focus,
       .centered-navigation ul li.nav-link a:hover {
-        color: black; }
+        color: rgba(0, 0, 0, 0.5); }
     @media screen and (min-width: 53.75em) {
       .centered-navigation ul li.nav-link {
         background: transparent;
@@ -465,17 +463,17 @@ html {
     opacity: 0.6; }
 
 .hero {
-  background: url("http://s30.postimg.org/tycvlfagh/background.png"), -webkit-linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
-  background: url("http://s30.postimg.org/tycvlfagh/background.png"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
-  background-color: #324766;
+  background: url("http://s30.postimg.org/tycvlfagh/background.png");
+  background: url("http://s30.postimg.org/tycvlfagh/background.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 3em; }
-  .hero .hero-logo img {
-    height: 8em;
-    margin-top: -4em;
-    margin-bottom: -2em; }
+  .hero .hero-logo {
+    height: auto;
+    margin-top: -5em;
+    margin-bottom: -4em;
+    width: 540px; }
   .hero .hero-inner {
     max-width: 68em;
     margin-left: auto;

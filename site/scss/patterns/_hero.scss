@@ -2,23 +2,21 @@
   $base-border-radius: 3px !default;
   $action-color: #FF5B11 !default;
   $large-screen: em(860) !default;
-  $hero-background-top: #7F99BE;
-  $hero-background-bottom: #20392B;
   $hero-color: white;
   $gradient-angle: 10deg;
   $hero-image: 'http://s30.postimg.org/tycvlfagh/background.png';
 
-  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
-  background-color: #324766;
+    @include background(url($hero-image));
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 3em;
 
-  .hero-logo img {
-    height: 8em;
-    margin-top: -4em;
-    margin-bottom: -2em;
+  .hero-logo {
+    height: auto;
+    margin-top: -5em;
+    margin-bottom: -4em;
+    width: 540px;
   }
 
   .hero-inner {
