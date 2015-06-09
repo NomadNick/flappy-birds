@@ -237,8 +237,7 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
+html input[type="button"], input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -359,8 +358,29 @@ th {
 html {
   box-sizing: border-box; }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: inherit; }
+
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, #EEE 0, #EEE 6.17215%, transparent 6.17215%, transparent 8.5298%, #EEE 8.5298%, #EEE 14.70196%, transparent 14.70196%, transparent 17.05961%, #EEE 17.05961%, #EEE 23.23176%, transparent 23.23176%, transparent 25.58941%, #EEE 25.58941%, #EEE 31.76157%, transparent 31.76157%, transparent 34.11922%, #EEE 34.11922%, #EEE 40.29137%, transparent 40.29137%, transparent 42.64902%, #EEE 42.64902%, #EEE 48.82117%, transparent 48.82117%, transparent 51.17883%, #EEE 51.17883%, #EEE 57.35098%, transparent 57.35098%, transparent 59.70863%, #EEE 59.70863%, #EEE 65.88078%, transparent 65.88078%, transparent 68.23843%, #EEE 68.23843%, #EEE 74.41059%, transparent 74.41059%, transparent 76.76824%, #EEE 76.76824%, #EEE 82.94039%, transparent 82.94039%, transparent 85.29804%, #EEE 85.29804%, #EEE 91.4702%, transparent 91.4702%, transparent 93.82785%, #EEE 93.82785%, #EEE 100%, transparent 100%);
+  background-image: -moz-linear-gradient(left, transparent 0, #EEE 0, #EEE 6.17215%, transparent 6.17215%, transparent 8.5298%, #EEE 8.5298%, #EEE 14.70196%, transparent 14.70196%, transparent 17.05961%, #EEE 17.05961%, #EEE 23.23176%, transparent 23.23176%, transparent 25.58941%, #EEE 25.58941%, #EEE 31.76157%, transparent 31.76157%, transparent 34.11922%, #EEE 34.11922%, #EEE 40.29137%, transparent 40.29137%, transparent 42.64902%, #EEE 42.64902%, #EEE 48.82117%, transparent 48.82117%, transparent 51.17883%, #EEE 51.17883%, #EEE 57.35098%, transparent 57.35098%, transparent 59.70863%, #EEE 59.70863%, #EEE 65.88078%, transparent 65.88078%, transparent 68.23843%, #EEE 68.23843%, #EEE 74.41059%, transparent 74.41059%, transparent 76.76824%, #EEE 76.76824%, #EEE 82.94039%, transparent 82.94039%, transparent 85.29804%, #EEE 85.29804%, #EEE 91.4702%, transparent 91.4702%, transparent 93.82785%, #EEE 93.82785%, #EEE 100%, transparent 100%);
+  background-image: -ms-linear-gradient(left, transparent 0, #EEE 0, #EEE 6.17215%, transparent 6.17215%, transparent 8.5298%, #EEE 8.5298%, #EEE 14.70196%, transparent 14.70196%, transparent 17.05961%, #EEE 17.05961%, #EEE 23.23176%, transparent 23.23176%, transparent 25.58941%, #EEE 25.58941%, #EEE 31.76157%, transparent 31.76157%, transparent 34.11922%, #EEE 34.11922%, #EEE 40.29137%, transparent 40.29137%, transparent 42.64902%, #EEE 42.64902%, #EEE 48.82117%, transparent 48.82117%, transparent 51.17883%, #EEE 51.17883%, #EEE 57.35098%, transparent 57.35098%, transparent 59.70863%, #EEE 59.70863%, #EEE 65.88078%, transparent 65.88078%, transparent 68.23843%, #EEE 68.23843%, #EEE 74.41059%, transparent 74.41059%, transparent 76.76824%, #EEE 76.76824%, #EEE 82.94039%, transparent 82.94039%, transparent 85.29804%, #EEE 85.29804%, #EEE 91.4702%, transparent 91.4702%, transparent 93.82785%, #EEE 93.82785%, #EEE 100%, transparent 100%);
+  background-image: -o-linear-gradient(left, transparent 0, #EEE 0, #EEE 6.17215%, transparent 6.17215%, transparent 8.5298%, #EEE 8.5298%, #EEE 14.70196%, transparent 14.70196%, transparent 17.05961%, #EEE 17.05961%, #EEE 23.23176%, transparent 23.23176%, transparent 25.58941%, #EEE 25.58941%, #EEE 31.76157%, transparent 31.76157%, transparent 34.11922%, #EEE 34.11922%, #EEE 40.29137%, transparent 40.29137%, transparent 42.64902%, #EEE 42.64902%, #EEE 48.82117%, transparent 48.82117%, transparent 51.17883%, #EEE 51.17883%, #EEE 57.35098%, transparent 57.35098%, transparent 59.70863%, #EEE 59.70863%, #EEE 65.88078%, transparent 65.88078%, transparent 68.23843%, #EEE 68.23843%, #EEE 74.41059%, transparent 74.41059%, transparent 76.76824%, #EEE 76.76824%, #EEE 82.94039%, transparent 82.94039%, transparent 85.29804%, #EEE 85.29804%, #EEE 91.4702%, transparent 91.4702%, transparent 93.82785%, #EEE 93.82785%, #EEE 100%, transparent 100%);
+  background-image: linear-gradient(to left, transparent 0, #EEE 0, #EEE 6.17215%, transparent 6.17215%, transparent 8.5298%, #EEE 8.5298%, #EEE 14.70196%, transparent 14.70196%, transparent 17.05961%, #EEE 17.05961%, #EEE 23.23176%, transparent 23.23176%, transparent 25.58941%, #EEE 25.58941%, #EEE 31.76157%, transparent 31.76157%, transparent 34.11922%, #EEE 34.11922%, #EEE 40.29137%, transparent 40.29137%, transparent 42.64902%, #EEE 42.64902%, #EEE 48.82117%, transparent 48.82117%, transparent 51.17883%, #EEE 51.17883%, #EEE 57.35098%, transparent 57.35098%, transparent 59.70863%, #EEE 59.70863%, #EEE 65.88078%, transparent 65.88078%, transparent 68.23843%, #EEE 68.23843%, #EEE 74.41059%, transparent 74.41059%, transparent 76.76824%, #EEE 76.76824%, #EEE 82.94039%, transparent 82.94039%, transparent 85.29804%, #EEE 85.29804%, #EEE 91.4702%, transparent 91.4702%, transparent 93.82785%, #EEE 93.82785%, #EEE 100%, transparent 100%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 68em;
+  opacity: 0.4;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 9999; }
 
 .centered-navigation {
   background-color: #F4FEE1;
@@ -462,17 +482,15 @@ html {
     opacity: 0.6; }
 
 .hero {
-  background: url("http://s30.postimg.org/tycvlfagh/background.png");
-  background: url("http://s30.postimg.org/tycvlfagh/background.png");
-  background-position: top;
+  background: url("../images/background.png");
+  background: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   padding-bottom: 3em; }
   .hero .hero-logo {
-    height: auto;
     margin-top: -5em;
-    margin-bottom: -4em;
-    width: 540px; }
+    margin-bottom: -4em; }
   .hero .hero-inner {
     max-width: 68em;
     margin-left: auto;
@@ -493,7 +511,8 @@ html {
       text-align: center; }
       .hero .hero-inner .hero-copy h1 {
         font-size: 1.6em;
-        margin-bottom: 0.5em; }
+        margin-bottom: 0.5em;
+        margin-top: 3em; }
         @media screen and (min-width: 53.75em) {
           .hero .hero-inner .hero-copy h1 {
             font-size: 1.8em; } }
@@ -521,7 +540,8 @@ html {
       .hero .hero-inner button:hover:not(:disabled) {
         background-color: #ff6d2b;
         cursor: pointer; }
-      .hero .hero-inner button:active:not(:disabled), .hero .hero-inner button:focus:not(:disabled) {
+      .hero .hero-inner button:active:not(:disabled),
+      .hero .hero-inner button:focus:not(:disabled) {
         background-color: #f24f05;
         cursor: pointer; }
       .hero .hero-inner button:disabled {
@@ -559,10 +579,10 @@ html {
       .grid-items .grid-item {
         width: 33.33333%; } }
   .grid-items .grid-item img {
-    display: block;
-    height: 3em;
-    margin-bottom: 1em;
-    border-radius: 5px; }
+    display: inline;
+    width: 300px;
+    border-radius: 5px;
+    padding-bottom: 20px; }
   .grid-items .grid-item h1 {
     color: white;
     font-size: 1.3em;
@@ -572,7 +592,8 @@ html {
     line-height: 1.5em;
     margin: auto;
     color: rgba(255, 255, 255, 0.9);
-    margin-bottom: 1.5em; }
+    margin-bottom: 1.5em;
+    width: 260px; }
     @media screen and (min-width: 40em) {
       .grid-items .grid-item p {
         max-width: 70%; } }
@@ -590,7 +611,8 @@ html {
         float: left;
         margin-bottom: 0; } }
   .footer-2 .footer-logo img {
-    height: 1.6em; }
+    height: 2em;
+    width: 50px; }
   .footer-2 ul {
     line-height: 1.5em;
     margin: 0 0 1em 0;
@@ -612,7 +634,8 @@ html {
   .footer-2 ul li a {
     color: black;
     text-decoration: none; }
-    .footer-2 ul li a:focus, .footer-2 ul li a:hover {
+    .footer-2 ul li a:focus,
+    .footer-2 ul li a:hover {
       color: #727272; }
   @media screen and (min-width: 53.75em) {
     .footer-2 .footer-secondary-links {
@@ -639,7 +662,6 @@ html {
       opacity: 0.7;
       padding: 1px;
       color: black; }
-      .footer-2 .footer-secondary-links ul.footer-social img:focus, .footer-2 .footer-secondary-links ul.footer-social img:hover {
+      .footer-2 .footer-secondary-links ul.footer-social img:focus,
+      .footer-2 .footer-secondary-links ul.footer-social img:hover {
         opacity: 1; }
-
-/*# sourceMappingURL=styles.css.map */

@@ -9,6 +9,7 @@
     @include background(url($hero-image));
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   padding-bottom: 3em;
 
   .hero-logo {
